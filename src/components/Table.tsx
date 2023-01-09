@@ -50,7 +50,7 @@ export default function Table(props: ITable){
 
                 ): false}
                 {props.deleteClient ? (
-                     <button onClick={() => props.selectClient?.(cliente)} className={`
+                     <button onClick={() => props.deleteClient?.(cliente)} className={`
                         flex justify-center items-center
                         text-red-500 rounded-full p-2 m-1
                         hover:bg-purple-50
